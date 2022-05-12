@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>mytag</short-name>
+  <uri>/WEB-INF/tlds/myTag</uri>
+  
+  <tag>
+    <name>Date</name>
+    <tag-class>myTagHandler.DateHandler</tag-class>
+  </tag>
+  <tag>
+    <name>Header</name>
+    <tag-class>myTagHandler.HeaderHandler</tag-class>
+    <attribute>
+      <name>align</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+      <type>java.lang.String</type>
+    </attribute>
+    <attribute>
+      <name>border</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+      <type>java.lang.int</type>
+    </attribute>
+    <attribute>
+      <name>bgcolor</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+      <type>java.lang.int</type>
+    </attribute>
+    <attribute>
+      <name>font</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+      <type>java.lang.int</type>
+    </attribute>
+    <attribute>
+      <name>color</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+      <type>java.lang.String</type>
+    </attribute>
+    <attribute>
+      <name>size</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+      <type>java.lang.int</type>
+    </attribute>
+  </tag>
+</taglib>

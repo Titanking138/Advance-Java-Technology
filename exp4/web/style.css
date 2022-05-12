@@ -1,0 +1,89 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jan 12, 2022, 12:54:08 PM
+    Author     : admin
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.SignInContaier{
+    background: #efefee;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+  background-color: #fff;
+  min-height: 300px;
+  max-height: 100%;
+  width: 450px;
+  box-shadow: rgb(0 0 0 / 10%) 1px 2px 2px;
+  padding: 20px 35px 35px 35px;
+  overflow-y: auto;
+}
+
+/* @media only screen and (max-height: 640px) { // only practice perpose 
+  .column {
+    overflow-y: auto;
+  }
+} */
+
+.column form {
+  display: flex;
+  flex-direction: column;
+}
+
+.column form input[type="text"],
+.column form input[type="email"],
+.column form input[type="password"] {
+  margin: 12px 0;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #dedede;
+  padding: 5px;
+}
+.column form input[type="submit"] {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  height: 36px;
+  width: 90px;
+  padding: 10px 0;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.column .header {
+  padding: 20px 0px 40px 0px;
+}
+.column .header h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0px;
+  padding-top: 10px;
+  color: #000;
+}
+.column .header span {
+  font-size: 14px;
+}
+
+
+.column .signInMessage {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #4285f4;
+}
